@@ -272,7 +272,7 @@ html{
     height: 7px;
     background-color: var(--primary-light);
     border-radius: 5px 5px 5px 5px;
-    box-shadow: #e521668f 0px 0px 3px 1px;
+    box-shadow: #e5216642 0px 0px 3px 1px;
 }
 .skill-bar .indicator{
     height: 100%;
@@ -300,7 +300,7 @@ html{
     height: 7px;
     background-color: var(--primary-light);
     border-radius: 5px 5px 5px 5px;
-    box-shadow: #e521668f 0px 0px 3px 1px;
+    box-shadow: #e5216642 0px 0px 3px 1px;
 }
 
 /*skill 3*/
@@ -323,7 +323,7 @@ html{
     height: 7px;
     background-color: var(--primary-light);
     border-radius: 5px 5px 5px 5px;
-    box-shadow: #e521668f 0px 0px 3px 1px;
+    box-shadow: #e5216642 0px 0px 3px 1px;
 }
 .skill-left .skill3 .indicator{
     width: 40%;
