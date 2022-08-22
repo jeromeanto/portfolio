@@ -1,0 +1,338 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(19, 69, 235);
+    height: 55px;
+}
+.logo{
+    height: 55px;
+    width: 20%;
+    position: relative;
+}
+.logo img{
+    height: 55px;
+    border-radius: 5px;
+    position: absolute;
+    left: 15px;
+}
+.logo img:hover{
+    transform: scale(1.1, 1.1 );
+    border-radius: 20px;
+}
+.nav{
+    width: 45%;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
+}
+.nav ul li{
+    list-style-type: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav ul li:hover{
+    background-color: rgb(20, 219, 225);
+    border: 2px solid black;
+    border-radius: 200px;
+    transition: 0.8s;
+}
+.nav ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+.banner{
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(19, 69, 235);
+}
+.ubtext{
+    color: black;
+    padding-left: 20px;
+}
+.animalcontainer{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.animal1{
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px;
+    margin: 10px;
+}
+.animal2{
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px;
+    margin: 10px;
+}
+.animal3{
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px;
+    margin: 10px;
+}
+.lion img{
+    height: 40vh;
+    width: 100%;
+}
+.deer img{
+    height: 40vh;
+    width: 100%;
+}
+.chipanzee img{
+    height: 40vh;
+    width: 100%;
+}
+.lion a img:hover{
+    transform: scale(1.1, 1.1);
+    border-radius: 20px;
+}
+.deer a img:hover {
+    transform: scale(1.1, 1.1);
+    border-radius: 20px;
+}
+.chipanzee a img:hover {
+    transform: scale(1.1, 1.1);
+    border-radius: 20px;
+}
+.zoodetails{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    height: 70vh;
+    width: 100%;
+}
+.combinedanimals{
+    height: 100%;
+    width: 70%;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.combinedanimals img{
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+.cacontent{
+    width: 25%;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+}
+.footer{
+    display: flex;
+    background-color: rgb(9 28 90);
+}
+.address{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:rgba(255, 255, 255, 0.552);
+}
+.address h1{
+    color: black;
+}
+.map{
+    width: 30%;
+    height: 30vh;
+    padding: 10px;
+    background-image: url("image/zoo map.jpg");
+}
+.map img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+@media only screen and (max-width: 680px) {
+    .nav{
+        width: 70%;
+    }
+    .banner h1{
+        font-size: 15px;
+    }
+    .banner h2{
+        font-size: 12px;
+    }
+    .banner{
+        height: 40vh;
+    }
+    .ubtext{
+        font-size: 10px;
+    }
+    .animalcontainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 160vh;
+        width: 100%;
+    }
+    .animal1{
+        height: 50vh;
+        width: 70%;
+    }
+    .lion img{
+        height: 35vh;
+        width: 100%;
+    }
+    .animal2 {
+        height: 50vh;
+        width: 70%;
+    }
+    
+    .deer img {
+        height: 50%;
+        width: 100%;
+    }
+    .animal3 {
+        height: 50vh;
+        width: 70%;
+    }
+    
+    .chipanzee img {
+        height: 30vh;
+        width: 100%;
+    }
+    .zoodetails{
+        height: 82vh;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .combinedanimals{
+        height: 45vh;
+        width: 100%;
+    }
+    .cacontent{
+        height: 30vh;
+        width: 100%;
+        padding: 5px;
+        font-size: 12px;
+    }
+    .footer{
+        height: 20vh;
+    }
+    .address h1{
+        font-size: 20px;
+    }
+    .map{
+        height: 20vh;
+    }
+}
+
+@media screen and (min-device-width: 681px) and (max-device-width: 1200px){
+    .nav {
+        width: 60%;
+    }
+    
+    .banner h1 {
+        font-size: 30px;
+    }
+    
+    .banner h2 {
+        font-size: 25px;
+    }
+    
+    .banner {
+        height: 70vh;
+    }
+    .ubtext {
+        font-size: 12px;
+    }
+    .cacontent{
+        font-size: 12px;
+    }
+    .animalcontainer{
+        height: 50vh;
+    }
+    .lion img{
+        height: 25vh;
+    }
+    .deer img {
+        height: 25vh;
+    }
+    .chipanzee img {
+        height: 25vh;
+    }
+    .lioncontent h2{
+        font-size: 20px;
+    }
+    .chipanzeecontent h2{
+        font-size: 20px;
+    }
+    .deercontent h2{
+        font-size: 20px;
+    }
+    .address h1 {
+        font-size: 20px;
+    }
+}
+@media screen and (min-device-width: 280px) and (max-device-width: 360px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+        height: 25vh;
+    }
+    .nav ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav{
+        height: 75%;
+    }
+    .nav ul li{
+        width: 100%;
+    }
+    .logo{
+        height: 23%;
+        width: 100%;
+        display: flex;
+        position: relative;
+    }
+    .logo img{
+        height: 100%;
+        position: absolute;
+        left: 113px;
+    }
+}
+
